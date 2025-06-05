@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASISTENTE DE VIAJES</title>
+    <link rel="stylesheet" href="styleviaje.css">
+    <script src="viaje.js"></script>
+</head>
+
+<body class="diseño1">
+    
+        <div class="viaje" style="margin-left: 100px">
+            <h2> REGISTRATE </h2>
+            <form>
+                <p> Nombre <input type="text" id="Nombre" placeholder="Ingrese su usuario"></p>
+                <p> Apellido <input type="text" id="Apellido" placeholder="Ingrese su apellido"></p>
+                <p> DNI <input type="number" id="DNI" placeholder="Ingrese DNI"></p>
+
+                <p> Metodo de pago </p>
+                <select name="Pago" id="pago">
+                    <option selected> EFECTIVO </option>
+                    <option> TRANSFERENCIA </option>
+                    <option> TARJETA DE CREDITO </option>
+                </select><br>
+
+            </form><br>
+            <button onclick="afiliar()"> Afiliar </button>
+
+            <br>
+            <p id="resultado1" style="color:black; font-weight: bold;"></p>
+        </div>
+        <div class="viaje">
+            <h2> FORMULARIO </h2>
+            <form>
+
+                <p> ¿Quiere viajar dentro del pais o al exterior? </p>
+                <select name="lugar" id="lugar">
+                    <option value="1"> NACIONAL </option>
+                    <option value="2"> INTERNACIONAL </option>
+                </select><br>
+
+
+                <p> ¿Que clima prefiere? </p>
+                <select name="clima" id="clima">
+                    <Option value="1"> CALIDO/ TROPICAL </Option>
+                    <option value="2"> FRIO/ NIEVE </option>
+                    <option value="3"> TEMPLADO </option>
+                </select><br>
+
+                <p> ¿Que tipo de lugar te atrae mas? </p>
+                <select name="ambiente" id="ambiente">
+                    <Option value="1"> PLAYA </Option>
+                    <option value="2"> MONTAÑA </option>
+                    <option value="3"> CULTURAL/ HISTORICO </option>
+                </select>
+            </form><br>
+
+
+            <button onclick="cotizar()"> Cotizar </button><br>
+
+            <p id="resultado2" style="color:black; font-weight: bold;"></p>
+
+
+
+        </div>
+    
+
+</body>
