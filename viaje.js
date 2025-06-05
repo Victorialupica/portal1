@@ -41,7 +41,6 @@ function cotizar (){
     if (lug==2 && amb==3){
         window.location.href="opcion6.html";
     }
-    
 }
 function lasgrutas(){
 let r = document.getElementById("resultado").textContent="El precio aproximado con todo incluido es: $500.000 por persona ";
