@@ -90,6 +90,10 @@ let r = document.getElementById("resultado2").textContent="El precio aproximado 
 function roma(){
     let r = document.getElementById("resultado").textContent="El precio aproximado con todo incluido es: $3.000.000 por persona ";
 }
+
+function volver (){
+    window.location.href="viaje.html";
+}
 function estambul(){
 let r = document.getElementById("resultado1").textContent="El precio aproximado con todo incluido es: $2.500.000 por persona ";
 }
